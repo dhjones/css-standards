@@ -6,10 +6,10 @@ Structure
 Best practice would be to use LESS, and to create a series of LESS files to be imported in one primary LESS file to be served.
 In the absense of using a CSS preprocessor, the order of styles in the CSS should reflect the same order.
 
-    screen.less
+    sitename.less
     -----------
     /**
-    * @screen.css
+    * @sitename.css
     * The complete stylesheet for _property.com_
     *
     * Contains all the styling for the site, including any responsive design tweaks
