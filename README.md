@@ -77,6 +77,6 @@ Examples
     
     #menuContainer
     {
-      background-color: #990000;
+      background: #990000;
       color: #fff;
-    {
+    }
