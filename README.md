@@ -17,7 +17,7 @@ In the absense of using a CSS preprocessor, the order of styles in the CSS shoul
     
     @import "reset.less";
     @import "colour.less";
-    @import "mixin.less";
+    @import "mixins.less";
     @import "font.less";
     @import "screen.less";
     @import "print.less";
