@@ -4,7 +4,7 @@ css-standards
 Structure
 ---------
 Best practice would be to use LESS, and to create a series of LESS files to be imported in one primary LESS file to be served.
-In the absense of using a CSS preprocessor, the order of styles in the CSS should reflect the same order.
+In the absense of using a CSS preprocessor, the order of styles in the CSS should reflect the same order. Each section should be separated by a docblock, if LESS files are not used.
 
     sitename.less
     -----------
