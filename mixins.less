@@ -16,6 +16,14 @@
   opacity: @opacity;
 }
 
+.scale(@scale:0.5){
+  transform:scale(@scale);
+  -ms-transform:scale(@scale) translateZ(0); /* IE 9 */
+  -moz-transform:scale(@scale) translateZ(0); /* Firefox */
+  -webkit-transform:scale(@scale) translateZ(0); /* Safari and Chrome */
+  -o-transform:scale(@scale) translateZ(0); /* Opera */
+}
+
 .rounded(@radius: 5px)
 {
   -webkit-border-radius: @radius;
