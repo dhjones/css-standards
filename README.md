@@ -47,6 +47,11 @@ Selectors
 * Classes are lowercase, and dash separated.
 * Nested selectors are indented by two spaces.
 
+Selector usage
+--------------
+To use an ID, like #gameContainer it must be unique, if an area of content to be styled is likely to not be unique on a page, or the style might be of use more globally, then use a class.
+Performance of JavaScript is massively affected by the misuse of classes and ID's - so use them correctly.
+
 Properties
 ----------
 * CSS Properties are ordered alphabetically.
