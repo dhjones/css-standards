@@ -40,7 +40,7 @@ All CSS/LESS files must start with a docblock structured like the one which foll
 Selectors
 ---------
 * Each selector must be on its own line.
-* Brackets start and end vertically aligned to the start of the selectors.
+* Brackets start after the last selector and end vertically aligned to the start of the selectors.
 * Each declaration should be indented one level relative to its selector.
 * Unless absolutely essential, ID and class selectors are not prefaced with block elements, there is usually no need to tie to the DOM as tightly, and the rendering and portability is improved.
 * ID Selectors are camelCased.
@@ -73,15 +73,13 @@ Examples
     h3,
     h4,
     h5,
-    h6
-    {
+    h6 {
       border-bottom: 1px solid #333;
       color: #333;
       font-weight: bold;
     }
     
-    #menuContainer
-    {
+    #menuContainer {
       background: #990000;
       color: #fff;
     }
