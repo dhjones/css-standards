@@ -3,8 +3,8 @@ css-standards
 
 Structure
 ---------
-Best practice would be to use LESS, and to create a series of LESS files to be imported in one primary LESS file to be served.
-In the absense of using a CSS preprocessor, the order of styles in the CSS should reflect the same order. Each section should be separated by a docblock, if LESS files are not used.
+Best practice would be to use LESS/SASS, and to create a series of LESS/SASS files to be imported in one primary LESS/SASS file to be served.
+In the absense of using a CSS preprocessor, the order of styles in the CSS should reflect the same order. Each section should be separated by a docblock, if LESS/SASS files are not used.
 
     sitename.less
     -----------
@@ -27,7 +27,7 @@ This should then be compiled and minified on development, before being commited 
 
 Comments
 --------
-All CSS/LESS files must start with a docblock structured like the one which follows.
+All CSS/LESS/SASS files must start with a docblock structured like the one which follows.
 
     /**
     * @file
@@ -44,8 +44,8 @@ Selectors
 * Each declaration should be indented one level relative to its selector.
 * Unless absolutely essential, ID and class selectors are not prefaced with block elements, there is usually no need to tie to the DOM as tightly, and the rendering and portability is improved.
 * ID Selectors are camelCased.
-* Classes are lowercase, and dash separated.
-* Nested selectors are indented by two spaces.
+* Classes are all lowercase, and dash separated.
+* Nested selectors are indented by 4 spaces.
 
 Selector usage
 --------------
@@ -64,7 +64,8 @@ Properties
 * Where allowed, avoid specifying units for zero-values, e.g. use margin: 0; instead of margin: 0px;.
 * Include a space after each comma in comma-separated property or function values.
 * Do not use spaces around the parentheses in a function, e.g. color: rgba(0, 0, 0, 0.8);
-* Properties are indented by two spaces.
+* Properties are indented by 4 spaces.
+* Don't include spaces after commas within rgb(), rgba(), hsl(), hsla(), or rect()
 
 Examples
 --------
